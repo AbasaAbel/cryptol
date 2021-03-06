@@ -475,7 +475,7 @@ a:focus, a:hover {
 }
 
 .account {
-  background: #31BB9E;
+  background: rgb(128,128,128);
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -539,7 +539,7 @@ a:focus, a:hover {
 ==================================================================*/
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background:#000080;
 }
 
 .navigation .navbar-nav > li.active a {
@@ -734,7 +734,7 @@ a:focus, a:hover {
 
 .hero-area:before {
   content: '';
-  background: rgba(49, 187, 158, 0.84);
+  background: rgb(128,128,128);
   position: absolute;
   top: 0;
   right: 0;
@@ -1196,7 +1196,7 @@ a:focus, a:hover {
   color: #fff;
   font-size: 16px;
   padding: 15px;
-  background: #31BB9E;
+  background: #000080;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
@@ -1225,7 +1225,7 @@ a:focus, a:hover {
 }
 
 .pricing-table .pricing-item .progress .progress-bar {
-  background: #31BB9E;
+  background: #000080;
 }
 
 .pricing-table .pricing-item .btn-main, .pricing-table .pricing-item .btn-main-sm {
@@ -1246,7 +1246,7 @@ a:focus, a:hover {
 }
 
 .custom-pricing a {
-  color: #31BB9E;
+  color: #000080;
 }
 
 .custom-pricing-form h3 {

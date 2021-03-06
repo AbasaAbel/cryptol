@@ -19,15 +19,6 @@ class Menu extends React.Component {
         return (
 
             <div>
-                 <section class="top-header">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                            
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section class="header  navigation">
                     <div class="container">
                         <div class="row">
