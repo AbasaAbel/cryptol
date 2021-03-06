@@ -106,6 +106,7 @@ class Pricing extends React.Component {
                                     </div>
                                 </div>
                             </div> 
+                    status
                         </section> 
                     </div> 
                 <div>
