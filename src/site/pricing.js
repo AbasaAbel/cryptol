@@ -34,20 +34,6 @@ class Pricing extends React.Component {
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <ul class="nav nav-pills mb-6 pricing-tab justify-content-center" id="pills-tab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-                                                    aria-controls="pills-home" aria-selected="true">Buy</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                                                    aria-controls="pills-profile" aria-selected="false">Sell</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
                                     <div class="col-md-12">
                                         <div class="tab-content" id="pills-tabContent">
                                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
@@ -106,8 +92,7 @@ class Pricing extends React.Component {
                                     </div>
                                 </div>
                             </div> 
-                    status
-                        </section> 
+                          </section> 
                     </div> 
                 <div>
                     <Footer/>

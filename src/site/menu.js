@@ -36,7 +36,7 @@ class Menu extends React.Component {
                                                 <a class="nav-link" href={"/pricing"}>Pricing <span class="sr-only">(current)</span></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href={"/count"}>Personal Counter</a>
+                                                <a class="nav-link" href={"/resource"}>Resource Center</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href={"/login"}>Sign In</a>

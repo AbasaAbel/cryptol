@@ -19,7 +19,7 @@ const routes = (
                   <Route exact path='/login' component={Login} />
                   <Route exact path='/sign-up' component={Signup} />
                   <Route exact path='/pricing' component={Pricing} />
-                  <Route exact path='/count' component={Counta} />
+                  <Route exact path='/resource' component={Counta} />
                   <Route exact path='/' component={App} />
                   <Route component={App} />
               </Switch>
