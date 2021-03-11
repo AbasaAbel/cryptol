@@ -9,7 +9,7 @@ import Footer from "./footer";
 
 
 
-class Signal extends React.Component {
+class Count extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -29,7 +29,7 @@ class Signal extends React.Component {
                                 <div class="row">
                                     <div class="col">
                                         <div class="title text-center">
-                                            <h4>Signals</h4>
+                                            <h4>Arbitrage</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@ class Signal extends React.Component {
                                         <div class="tab-content" id="pills-tabContent">
                                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                                 <div class="row">
-                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="col-md-4 col-sm-6 col-xs-12">
                                                         <div class="pricing-item">
                                                             <h3>Lorem ipsum</h3>
                                                             <div class="pricing-body">
@@ -51,7 +51,19 @@ class Signal extends React.Component {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                        <div class="pricing-item">
+                                                            <h3>Lorem ipsum</h3>
+                                                            <div class="pricing-body">
+                                                                <div class="price">
+                                                                    <span class="sup">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-6 col-xs-12">
                                                         <div class="pricing-item">
                                                             <h3>Lorem ipsum</h3>
                                                             <div class="pricing-body">
@@ -75,7 +87,7 @@ class Signal extends React.Component {
                                         <div class="tab-content" id="pills-tabContent">
                                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                                 <div class="row">
-                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="col-md-4 col-sm-6 col-xs-12">
                                                         <div class="pricing-item">
                                                             <h3>Lorem ipsum</h3>
                                                             <div class="pricing-body">
@@ -88,7 +100,19 @@ class Signal extends React.Component {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                                        <div class="pricing-item">
+                                                            <h3>Lorem ipsum</h3>
+                                                            <div class="pricing-body">
+                                                                <div class="price">
+                                                                    <span class="sup">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-6 col-xs-12">
                                                         <div class="pricing-item">
                                                             <h3>Lorem ipsum</h3>
                                                             <div class="pricing-body">
@@ -119,4 +143,4 @@ class Signal extends React.Component {
         );
     }
 }
-export default Signal;
+export default Count;

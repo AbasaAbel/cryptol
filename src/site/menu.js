@@ -3,6 +3,9 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/style.css';
+import '../assets/scss/templates/_header.scss';
+// import '../assets/scss/style.scss';
+
 
 // import Logo from './assets/images/logo.jpg'
 

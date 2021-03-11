@@ -4,7 +4,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/style.css';
 
-import Menu from "../site/menu";
+import Menu from "../site/nav";
 import Footer from "../site/footer";
 
 

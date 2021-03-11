@@ -450,20 +450,20 @@ a:focus, a:hover {
   margin: 0 3px;
 }
 
-.commonTab .nav-tabs .nav-item .nav-link {
+.commonTab .nav-tabs .nav-item .Nav-Link {
   background: #f9f9f9;
   color: #666;
   text-transform: capitalize;
   border-radius: 0;
 }
 
-.commonTab .nav-tabs .nav-item .nav-link.active {
+.commonTab .nav-tabs .Nav-item .Nav-Link.active {
   border: 1px solid #31BB9E;
   background: #31BB9E;
   color: #fff;
 }
 
-.commonTab .nav-tabs .nav-item .nav-link:hover {
+.commonTab .nav-tabs .nav-item .Nav-Link:hover {
   border: 1px solid #31BB9E;
   border-radius: 0;
   background: #31BB9E;
@@ -565,6 +565,22 @@ a:focus, a:hover {
     padding: 8px 0 !important;
   }
 }
+
+.mr-auto {
+  margin-right: 0 !important;
+}
+.navbar-toggleable-md .navbar-collapse {         
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;  
+} 
+
+.ml-auto {
+  margin-left: 100% !important;
+}
+.navbar-toggleable-md .navbar-collapse {         
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;  
+} 
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
@@ -1196,7 +1212,7 @@ a:focus, a:hover {
   color: #fff;
   font-size: 16px;
   padding: 15px;
-  background: #000080;
+  background: #0000FF	;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
@@ -1204,7 +1220,7 @@ a:focus, a:hover {
 .pricing-table .pricing-item .price {
   font-size: 50px;
   font-weight: bold;
-  color: #000;
+  color: #0000FF;
   margin-bottom: 20px;
 }
 
@@ -1225,7 +1241,7 @@ a:focus, a:hover {
 }
 
 .pricing-table .pricing-item .progress .progress-bar {
-  background: #000080;
+  background: #0000FF	;
 }
 
 .pricing-table .pricing-item .btn-main, .pricing-table .pricing-item .btn-main-sm {
@@ -1246,7 +1262,7 @@ a:focus, a:hover {
 }
 
 .custom-pricing a {
-  color: #000080;
+  color: #0000FF	;
 }
 
 .custom-pricing-form h3 {
